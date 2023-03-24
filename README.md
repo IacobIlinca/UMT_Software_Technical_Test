@@ -1,5 +1,5 @@
-  ![CatTypingGIF (2)](https://user-images.githubusercontent.com/126677598/227518302-b747eefa-9ae1-46f4-9385-ead950679940.gif)
-# UMT_Software_Technical_Test
+# UMT_Software_Technical_Test![ConfusedSolvingGIF (2)](https://user-images.githubusercontent.com/126677598/227518904-620270ac-4ff6-4a85-aeb7-e8c6c89c4fbb.gif)
+
 This is the solution that I came up with for the technical test from the UMT Software, I choose to write the solution in Java.
 
 # The Problem:
@@ -11,3 +11,5 @@ the average value of C, and B and C are both non-empty."
 
 # The Solution:
 I first did a prunning to check if the given list can be split into the two sublists so they can have the same average, and like this we manage to exclude the ones  that are not checking this criteria from the start. Having the given list separated into 2 sublists B and C with the lengths D, respectively E. We know that sum(B(i))/D = sum(C(i))/E, from here we can demonstrate that sum(B(i)) = (D * sum(A))/the_length_of_A; and this is the formula that the prunning is based on. After this, with the use of dynamic programming is created a data structure that holds the sum of subsets( first of 0 item, 1 item , then 2 items and so on, until we have m = n/2 + 1 items), this is stored in a list in which the elements are TreeSets. After that we go through the set and see if the current value is found somewhere else in the set, we use an iterator to find the index of an element and check if this can be found or not in other set. The input that needs to be given for this programm to behave corespondingly is a list on a single row, its items need to be separated by a space character(" "), I implemented a function that reads this and creates the list that will be given to the other functions so it can verify if it checks the criteria or not.The output will be true if the given list can be split into 2 sublists that have the same average , or false if it can not.
+
+  ![CatTypingGIF (2)](https://user-images.githubusercontent.com/126677598/227518302-b747eefa-9ae1-46f4-9385-ead950679940.gif)
