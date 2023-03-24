@@ -116,7 +116,7 @@ public class Main {
      */
     public static void main(String[] args) {
         //int[] A = {1, 2, 3, 4, 5, 6, 7, 8};
-        File myObj = new File("src/date.txt");
+        File myObj = new File("UMTSoftware/src/date.txt");
         List<Integer> A = readFromFile(myObj);
         System.out.println(splitAvg(A));
 
