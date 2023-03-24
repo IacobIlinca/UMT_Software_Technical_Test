@@ -1,5 +1,5 @@
-# UMT_Software_Technical_Test  ![CatTypingGIF (2)](https://user-images.githubusercontent.com/126677598/227518302-b747eefa-9ae1-46f4-9385-ead950679940.gif)
-
+  ![CatTypingGIF (2)](https://user-images.githubusercontent.com/126677598/227518302-b747eefa-9ae1-46f4-9385-ead950679940.gif)
+# UMT_Software_Technical_Test
 This is the solution that I came up with for the technical test from the UMT Software, I choose to write the solution in Java.
 
 # The Problem:
