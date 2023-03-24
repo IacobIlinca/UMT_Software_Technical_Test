@@ -1,4 +1,4 @@
-# UMT_Software_Technical_Test![AestheticRoomGIF](https://user-images.githubusercontent.com/126677598/227519153-781d3fa8-fe49-4797-9e29-1537d939a784.gif)
+# UMT_Software_Technical_Test!align-left[AestheticRoomGIF](https://user-images.githubusercontent.com/126677598/227519153-781d3fa8-fe49-4797-9e29-1537d939a784.gif)
 
 
 This is the solution that I came up with for the technical test from the UMT Software, I choose to write the solution in Java.
